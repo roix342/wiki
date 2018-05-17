@@ -54,6 +54,15 @@ Pour une suppression permanente, au lieu d'utiliser la commande Effacer cet év�
 
    Création de la deuxième page vide.
 
+Mon jeux est devenu soudainement lent, que ce passe t'il ?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Vérifier que vous n'avez pas oublier un evenement n'ayant aucune frame de délai, Tout boucle doit contenir au moins une frame afin d'éviter de surcharger le processeur. Aucun probleme si l'évenement ne boucle pas ou limité raisonablement dans le nombre de boucle à effectuer.
+
+Pensez à éviter de trop mettre d'evenement sur la map, en effet, même si elle est en touche Joueur, il faut bien que le jeux vérifie constament que le joueur touche ou non celui-ci.
+
+Les évènements commun sont fort agréable, éviter de le surcharger au possible .
+
 Questions générales
 -------------------
 
