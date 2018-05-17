@@ -23,6 +23,7 @@ A travers une :ref:`condition <condition>`, on peut réaliser les vérifications
 | * supérieure ou égale    |                      |
 | * inférieure             |                      |
 | * inférieure ou égale    |                      |
+| * différent              |                      |
 +--------------------------+----------------------+
 
 Ces vérifications peuvent aussi être réalisées via un :ref:`appel de script <appeldescript>`.
